@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Blessing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="The_Blessing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,11 +21,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwC-h7-uZe" customClass="GIDSignInButton">
+                                <rect key="frame" x="392" y="311" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="xyu-Io-qd4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5IS-rt-0Z7" userLabel="The Blessing.centerX = centerX"/>
+                            <constraint firstItem="zwC-h7-uZe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8tQ-fb-ocZ"/>
                             <constraint firstItem="xyu-Io-qd4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aSt-mL-oNE"/>
+                            <constraint firstItem="zwC-h7-uZe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rlq-kM-ozL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

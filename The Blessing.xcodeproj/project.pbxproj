@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A83FF8E24B662A2006B2153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF8D24B662A2006B2153 /* AppDelegate.swift */; };
 		0A83FF9024B662A2006B2153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */; };
-		0A83FF9224B662A2006B2153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF9124B662A2006B2153 /* ViewController.swift */; };
+		0A83FF9224B662A2006B2153 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF9124B662A2006B2153 /* LoginViewController.swift */; };
 		0A83FF9524B662A2006B2153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9324B662A2006B2153 /* Main.storyboard */; };
 		0A83FF9724B662A3006B2153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9624B662A3006B2153 /* Assets.xcassets */; };
 		0A83FF9A24B662A3006B2153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		0A83FF8A24B662A2006B2153 /* The Blessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Blessing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A83FF8D24B662A2006B2153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A83FF9124B662A2006B2153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A83FF9124B662A2006B2153 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0A83FF9424B662A2006B2153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A83FF9624B662A3006B2153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A83FF9924B662A3006B2153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			children = (
 				0A83FF8D24B662A2006B2153 /* AppDelegate.swift */,
 				0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */,
-				0A83FF9124B662A2006B2153 /* ViewController.swift */,
+				0A83FF9124B662A2006B2153 /* LoginViewController.swift */,
 				0A83FF9324B662A2006B2153 /* Main.storyboard */,
 				0A83FF9624B662A3006B2153 /* Assets.xcassets */,
 				0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */,
@@ -91,7 +91,6 @@
 				FD546FD1596F013C90D3E7F5 /* Pods-The Blessing.debug.xcconfig */,
 				3AB6DCFA7D0388DE83D3398B /* Pods-The Blessing.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -229,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A83FF9224B662A2006B2153 /* ViewController.swift in Sources */,
+				0A83FF9224B662A2006B2153 /* LoginViewController.swift in Sources */,
 				0A83FF8E24B662A2006B2153 /* AppDelegate.swift in Sources */,
 				0A83FF9024B662A2006B2153 /* SceneDelegate.swift in Sources */,
 			);

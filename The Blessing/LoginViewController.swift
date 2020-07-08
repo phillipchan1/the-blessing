@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         GIDSignIn.sharedInstance().presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
     }
 
 
