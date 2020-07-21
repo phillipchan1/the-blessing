@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A54E4C624B671B300358DE4 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54E4C524B671B300358DE4 /* DashboardViewController.swift */; };
 		0A83FF8E24B662A2006B2153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF8D24B662A2006B2153 /* AppDelegate.swift */; };
 		0A83FF9024B662A2006B2153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */; };
-		0A83FF9224B662A2006B2153 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83FF9124B662A2006B2153 /* LoginViewController.swift */; };
 		0A83FF9524B662A2006B2153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9324B662A2006B2153 /* Main.storyboard */; };
 		0A83FF9724B662A3006B2153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9624B662A3006B2153 /* Assets.xcassets */; };
 		0A83FF9A24B662A3006B2153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */; };
 		0A83FFA224B667D5006B2153 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FFA124B667D5006B2153 /* GoogleService-Info.plist */; };
-		63E268C0E4C765435EF8FAE0 /* Pods_The_Blessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECB55BC035310258A6DD2E9 /* Pods_The_Blessing.framework */; };
+		367E8FE8F82531507B3B62CC /* Pods_The_Blessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AC7E285525161BC519F796 /* Pods_The_Blessing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A54E4C524B671B300358DE4 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		0A83FF8A24B662A2006B2153 /* The Blessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Blessing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A83FF8D24B662A2006B2153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A83FF9124B662A2006B2153 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0A83FF9424B662A2006B2153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A83FF9624B662A3006B2153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A83FF9924B662A3006B2153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A83FF9B24B662A3006B2153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A83FFA124B667D5006B2153 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3AB6DCFA7D0388DE83D3398B /* Pods-The Blessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Blessing.release.xcconfig"; path = "Target Support Files/Pods-The Blessing/Pods-The Blessing.release.xcconfig"; sourceTree = "<group>"; };
-		5ECB55BC035310258A6DD2E9 /* Pods_The_Blessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Blessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD546FD1596F013C90D3E7F5 /* Pods-The Blessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Blessing.debug.xcconfig"; path = "Target Support Files/Pods-The Blessing/Pods-The Blessing.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBB5732380747C0209BC78B /* Pods-The Blessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Blessing.release.xcconfig"; path = "Target Support Files/Pods-The Blessing/Pods-The Blessing.release.xcconfig"; sourceTree = "<group>"; };
+		D4AC7E285525161BC519F796 /* Pods_The_Blessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Blessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460D850AB8D9AD8D85AC356 /* Pods-The Blessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Blessing.debug.xcconfig"; path = "Target Support Files/Pods-The Blessing/Pods-The Blessing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,20 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E268C0E4C765435EF8FAE0 /* Pods_The_Blessing.framework in Frameworks */,
+				367E8FE8F82531507B3B62CC /* Pods_The_Blessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A54E4C424B6719D00358DE4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A54E4C524B671B300358DE4 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0A6ACA2E24B6BD7E0091B846 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */,
+				0A83FF8D24B662A2006B2153 /* AppDelegate.swift */,
+				0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		0A83FF8124B662A1006B2153 = {
 			isa = PBXGroup;
 			children = (
 				0A83FF8C24B662A2006B2153 /* The Blessing */,
 				0A83FF8B24B662A2006B2153 /* Products */,
 				EBF6F2A471B6D8267838F083 /* Pods */,
-				D5FCF7C3FFB66C34FE155A27 /* Frameworks */,
+				F5DB81EBC880D126F703CCB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,33 +83,31 @@
 		0A83FF8C24B662A2006B2153 /* The Blessing */ = {
 			isa = PBXGroup;
 			children = (
-				0A83FF8D24B662A2006B2153 /* AppDelegate.swift */,
-				0A83FF8F24B662A2006B2153 /* SceneDelegate.swift */,
-				0A83FF9124B662A2006B2153 /* LoginViewController.swift */,
 				0A83FF9324B662A2006B2153 /* Main.storyboard */,
+				0A6ACA2E24B6BD7E0091B846 /* Core */,
+				0A54E4C424B6719D00358DE4 /* Dashboard */,
 				0A83FF9624B662A3006B2153 /* Assets.xcassets */,
-				0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */,
 				0A83FF9B24B662A3006B2153 /* Info.plist */,
 				0A83FFA124B667D5006B2153 /* GoogleService-Info.plist */,
 			);
 			path = "The Blessing";
 			sourceTree = "<group>";
 		};
-		D5FCF7C3FFB66C34FE155A27 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5ECB55BC035310258A6DD2E9 /* Pods_The_Blessing.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EBF6F2A471B6D8267838F083 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD546FD1596F013C90D3E7F5 /* Pods-The Blessing.debug.xcconfig */,
-				3AB6DCFA7D0388DE83D3398B /* Pods-The Blessing.release.xcconfig */,
+				E460D850AB8D9AD8D85AC356 /* Pods-The Blessing.debug.xcconfig */,
+				6BBB5732380747C0209BC78B /* Pods-The Blessing.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5DB81EBC880D126F703CCB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC7E285525161BC519F796 /* Pods_The_Blessing.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,12 +117,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A83FF9E24B662A3006B2153 /* Build configuration list for PBXNativeTarget "The Blessing" */;
 			buildPhases = (
-				8BCE64F8A40057FDADAB9B47 /* [CP] Check Pods Manifest.lock */,
+				EE6CE534A6DFD195D096F186 /* [CP] Check Pods Manifest.lock */,
 				0A83FF8624B662A1006B2153 /* Sources */,
 				0A83FF8724B662A1006B2153 /* Frameworks */,
 				0A83FF8824B662A1006B2153 /* Resources */,
-				20ED6DE555270CEAE9F25307 /* [CP] Embed Pods Frameworks */,
-				D1ADAD60D87ACF8BC83E9986 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,24 +179,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20ED6DE555270CEAE9F25307 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BCE64F8A40057FDADAB9B47 /* [CP] Check Pods Manifest.lock */ = {
+		EE6CE534A6DFD195D096F186 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,23 +201,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1ADAD60D87ACF8BC83E9986 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Blessing/Pods-The Blessing-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -228,9 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A83FF9224B662A2006B2153 /* LoginViewController.swift in Sources */,
 				0A83FF8E24B662A2006B2153 /* AppDelegate.swift in Sources */,
 				0A83FF9024B662A2006B2153 /* SceneDelegate.swift in Sources */,
+				0A54E4C624B671B300358DE4 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,45 +352,45 @@
 		};
 		0A83FF9F24B662A3006B2153 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD546FD1596F013C90D3E7F5 /* Pods-The Blessing.debug.xcconfig */;
+			baseConfigurationReference = E460D850AB8D9AD8D85AC356 /* Pods-The Blessing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8F3P6DQB25;
+				DEVELOPMENT_TEAM = 4629AQ24Z2;
 				INFOPLIST_FILE = "The Blessing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.phillipchan.The-Blessing";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.phillip.The-Blessing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0A83FFA024B662A3006B2153 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AB6DCFA7D0388DE83D3398B /* Pods-The Blessing.release.xcconfig */;
+			baseConfigurationReference = 6BBB5732380747C0209BC78B /* Pods-The Blessing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8F3P6DQB25;
+				DEVELOPMENT_TEAM = 4629AQ24Z2;
 				INFOPLIST_FILE = "The Blessing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.phillipchan.The-Blessing";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.phillip.The-Blessing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
