@@ -6,5 +6,6 @@ target 'The Blessing' do
   use_frameworks!
 
   # Pods for The Blessing
+  pod 'UXCam'
 
 end

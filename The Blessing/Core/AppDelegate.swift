@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import UXCam
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    UXCam.optIntoSchematicRecordings()
+    UXCam.start(withKey:"zi3vkqw9s4q270y")
 
     return true
   }
