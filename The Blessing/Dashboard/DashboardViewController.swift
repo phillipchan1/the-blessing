@@ -9,23 +9,23 @@
 import UIKit
 
 class DashboardViewController: UIViewController {
-    @IBOutlet var TitleText: UILabel!
-    @IBOutlet weak var BlessingLabel: UILabel!
-    
-    @IBAction func GetBlessingOnTouch(_ sender: Any) {
-//        let blessingForToday = BlessingsController.getBlessing(date: nil)
-        print("touched")
-        
-        self.performSegue(withIdentifier: "DashboardToBlessing", sender: nil)
-        
-//        BlessingLabel.text = blessingForToday
-    }
-    
+    let blessingSegue = "DashboardToBlessing"
+
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        navigationItem.hidesBackButton = true
-        navigationController?.setNavigationBarHidden(true, animated: false)
-        print("dashboard loaded")
+    @IBAction func GetBlessingOnTouch(_: Any) {
+        performSegue(withIdentifier: blessingSegue, sender: nil)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
+        if segue.identifier == blessingSegue {
+            let destinationVC = segue.destination as! BlessingViewController
+
+            let theBlessing = BlessingsController.getBlessing(date: nil)
+
+            destinationVC.theBlessing = theBlessing
+        }
     }
 }
