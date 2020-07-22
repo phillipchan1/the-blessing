@@ -15,28 +15,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Blessing for Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDR-j1-oKx">
-                                <rect key="frame" x="137" y="185" width="140.5" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nl8-Xm-DHh">
+                                <rect key="frame" x="119" y="263" width="158" height="30"/>
+                                <state key="normal" title="Get Blessing For Today"/>
+                                <connections>
+                                    <action selector="GetBlessingOnTouch:" destination="KR4-7h-Nok" eventType="touchUpInside" id="mNn-cL-QEj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-tw-QmS">
+                                <rect key="frame" x="186" y="410.5" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nl8-Xm-DHh">
-                                <rect key="frame" x="128" y="406" width="158" height="30"/>
-                                <state key="normal" title="Get Blessing For Today"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerY" secondItem="ZYU-Za-Zfh" secondAttribute="centerY" id="0De-rM-6XK"/>
                             <constraint firstItem="Nl8-Xm-DHh" firstAttribute="centerX" secondItem="ZYU-Za-Zfh" secondAttribute="centerX" id="7K3-Li-WZ3"/>
-                            <constraint firstItem="KDR-j1-oKx" firstAttribute="centerX" secondItem="ZYU-Za-Zfh" secondAttribute="centerX" id="ZtN-Wm-Wfm"/>
-                            <constraint firstItem="Nl8-Xm-DHh" firstAttribute="centerY" secondItem="ZYU-Za-Zfh" secondAttribute="centerY" id="qKC-6N-zV6"/>
+                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerX" secondItem="ZYU-Za-Zfh" secondAttribute="centerX" id="LfJ-RZ-aQD"/>
+                            <constraint firstItem="Nl8-Xm-DHh" firstAttribute="centerY" secondItem="ZYU-Za-Zfh" secondAttribute="centerY" constant="50" id="qKC-6N-zV6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ly0-GS-dHI"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Gh-uX-6GV"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="TitleText" destination="KDR-j1-oKx" id="2iN-58-JDF"/>
+                        <outlet property="BlessingLabel" destination="7eS-tw-QmS" id="tnj-jg-t1k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DvX-HG-0JO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

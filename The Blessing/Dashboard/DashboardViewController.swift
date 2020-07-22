@@ -10,12 +10,17 @@ import UIKit
 
 class DashboardViewController: UIViewController {
     @IBOutlet var TitleText: UILabel!
-
+    @IBOutlet weak var BlessingLabel: UILabel!
+    
+    @IBAction func GetBlessingOnTouch(_ sender: Any) {
+        let blessingForToday = BlessingsController.getBlessing(date: nil)
+        
+        BlessingLabel.text = blessingForToday
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        TitleText.textColor = UIColor.label
-        
         navigationItem.hidesBackButton = true
         navigationController?.setNavigationBarHidden(true, animated: false)
         print("dashboard loaded")
