@@ -13,9 +13,12 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var BlessingLabel: UILabel!
     
     @IBAction func GetBlessingOnTouch(_ sender: Any) {
-        let blessingForToday = BlessingsController.getBlessing(date: nil)
+//        let blessingForToday = BlessingsController.getBlessing(date: nil)
+        print("touched")
         
-        BlessingLabel.text = blessingForToday
+        self.performSegue(withIdentifier: "DashboardToBlessing", sender: nil)
+        
+//        BlessingLabel.text = blessingForToday
     }
     
     override func viewDidLoad() {

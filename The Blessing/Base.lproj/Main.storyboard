@@ -12,7 +12,7 @@
             <objects>
                 <viewController title="Dashboard View Controller" id="KR4-7h-Nok" customClass="DashboardViewController" customModule="The_Blessing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZYU-Za-Zfh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nl8-Xm-DHh">
@@ -22,18 +22,10 @@
                                     <action selector="GetBlessingOnTouch:" destination="KR4-7h-Nok" eventType="touchUpInside" id="mNn-cL-QEj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-tw-QmS">
-                                <rect key="frame" x="186" y="410.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerY" secondItem="ZYU-Za-Zfh" secondAttribute="centerY" id="0De-rM-6XK"/>
                             <constraint firstItem="Nl8-Xm-DHh" firstAttribute="centerX" secondItem="ZYU-Za-Zfh" secondAttribute="centerX" id="7K3-Li-WZ3"/>
-                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerX" secondItem="ZYU-Za-Zfh" secondAttribute="centerX" id="LfJ-RZ-aQD"/>
                             <constraint firstItem="Nl8-Xm-DHh" firstAttribute="centerY" secondItem="ZYU-Za-Zfh" secondAttribute="centerY" constant="50" id="qKC-6N-zV6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ly0-GS-dHI"/>
@@ -42,29 +34,40 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="BlessingLabel" destination="7eS-tw-QmS" id="tnj-jg-t1k"/>
+                        <segue destination="hjH-eH-UNb" kind="show" identifier="DashboardToBlessing" id="Imy-r4-Ge6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DvX-HG-0JO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="138"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cZo-P7-Wac">
+        <!--Blessing View Controller-->
+        <scene sceneID="9Q9-DZ-hvC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fuh-qe-Vau" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AmF-lP-mdt">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="KR4-7h-Nok" kind="show" id="MbN-JI-O3n"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="De4-dl-1nk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="hjH-eH-UNb" customClass="BlessingViewController" customModule="The_Blessing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MOE-kq-FgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-tw-QmS">
+                                <rect key="frame" x="170" y="349" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerY" secondItem="MOE-kq-FgQ" secondAttribute="centerY" constant="-88.5" id="C5A-hS-mOd"/>
+                            <constraint firstItem="7eS-tw-QmS" firstAttribute="centerX" secondItem="MOE-kq-FgQ" secondAttribute="centerX" constant="-16" id="p2l-2v-pc2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aUG-6s-sXe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C6A-fT-Hya"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HYw-JK-6vX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140.625" y="138.28125"/>
+            <point key="canvasLocation" x="1606" y="138"/>
         </scene>
     </scenes>
 </document>
