@@ -10,7 +10,7 @@ import UIKit
 
 class DashboardViewController: UIViewController {
     let blessingSegue = "DashboardToBlessing"
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,9 +23,9 @@ class DashboardViewController: UIViewController {
         if segue.identifier == blessingSegue {
             let destinationVC = segue.destination as! BlessingViewController
 
-            let theBlessing = BlessingsController.getBlessing(date: nil)
+            let theBlessing = BlessingsController.sharedInstance.getBlessing(date: nil)
 
-            destinationVC.theBlessing = theBlessing
+            destinationVC.theBlessing = theBlessing!
         }
     }
 }

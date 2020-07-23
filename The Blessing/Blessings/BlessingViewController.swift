@@ -12,12 +12,13 @@ import UIKit
 
 class BlessingViewController: UIViewController {
     @IBOutlet weak var blessingLabel: UILabel!
-    var theBlessing: String?
+    
+    var theBlessing = Blessing(title: "",description: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        blessingLabel.text = theBlessing
+        blessingLabel.text = theBlessing.description
         print("Blessings loaded")
     }
     
