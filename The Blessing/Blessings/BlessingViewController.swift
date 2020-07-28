@@ -18,6 +18,10 @@ class BlessingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+        
+        print(dataFilePath)
+        
         blessingLabel.text = theBlessing.description
         print("Blessings loaded")
     }

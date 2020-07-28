@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B980633E0D0E31B6438177155AD578F9"
-               BuildableName = "Pods_The_Blessing.framework"
-               BlueprintName = "Pods-The Blessing"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "2AA2D83B4DE968A4C94EA9BE51AC3069"
+               BuildableName = "UXCam"
+               BlueprintName = "UXCam"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
