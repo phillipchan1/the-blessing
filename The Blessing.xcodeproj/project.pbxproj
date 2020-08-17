@@ -15,7 +15,6 @@
 		0A83FF9A24B662A3006B2153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FF9824B662A3006B2153 /* LaunchScreen.storyboard */; };
 		0A83FFA224B667D5006B2153 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A83FFA124B667D5006B2153 /* GoogleService-Info.plist */; };
 		0A8B660F24DDB337000311C4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B660D24DDB337000311C4 /* DataModel.xcdatamodeld */; };
-		0A91C7AD24C9D7E100DD8DA4 /* BlessingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91C7AC24C9D7E100DD8DA4 /* BlessingModel.swift */; };
 		0AB4C4C024C883C10059B00A /* BlessingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4C4BF24C883C10059B00A /* BlessingsController.swift */; };
 		0AB4C4C224C8865B0059B00A /* BlessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4C4C124C8865B0059B00A /* BlessingViewController.swift */; };
 		367E8FE8F82531507B3B62CC /* Pods_The_Blessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AC7E285525161BC519F796 /* Pods_The_Blessing.framework */; };
@@ -32,7 +31,6 @@
 		0A83FF9B24B662A3006B2153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A83FFA124B667D5006B2153 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A8B660E24DDB337000311C4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		0A91C7AC24C9D7E100DD8DA4 /* BlessingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlessingModel.swift; sourceTree = "<group>"; };
 		0AB4C4BF24C883C10059B00A /* BlessingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlessingsController.swift; sourceTree = "<group>"; };
 		0AB4C4C124C8865B0059B00A /* BlessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlessingViewController.swift; sourceTree = "<group>"; };
 		6BBB5732380747C0209BC78B /* Pods-The Blessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Blessing.release.xcconfig"; path = "Target Support Files/Pods-The Blessing/Pods-The Blessing.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			children = (
 				0AB4C4BF24C883C10059B00A /* BlessingsController.swift */,
 				0AB4C4C124C8865B0059B00A /* BlessingViewController.swift */,
-				0A91C7AC24C9D7E100DD8DA4 /* BlessingModel.swift */,
 			);
 			path = Blessings;
 			sourceTree = "<group>";
@@ -230,7 +227,6 @@
 			files = (
 				0A83FF8E24B662A2006B2153 /* AppDelegate.swift in Sources */,
 				0A83FF9024B662A2006B2153 /* SceneDelegate.swift in Sources */,
-				0A91C7AD24C9D7E100DD8DA4 /* BlessingModel.swift in Sources */,
 				0A8B660F24DDB337000311C4 /* DataModel.xcdatamodeld in Sources */,
 				0AB4C4C024C883C10059B00A /* BlessingsController.swift in Sources */,
 				0A54E4C624B671B300358DE4 /* DashboardViewController.swift in Sources */,

@@ -13,16 +13,16 @@ import UIKit
 class BlessingViewController: UIViewController {
     @IBOutlet weak var blessingLabel: UILabel!
     
-    var theBlessing = Blessing(title: "",description: "")
+    var theBlessing = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
         
-        print(dataFilePath)
+
         
-        blessingLabel.text = theBlessing.description
+        blessingLabel.text = theBlessing
         print("Blessings loaded")
     }
     
